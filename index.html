@@ -6,18 +6,20 @@
 <meta charset="UTF-8">
 
 <meta name="viewport"
-content="width=device-width,initial-scale=1">
+content="width=device-width, initial-scale=1.0">
 
 <meta name="description"
-content="Accessible semantic portfolio website">
+content="Responsive Portfolio Website with Semantic HTML5 and Accessibility">
 
 <meta name="keywords"
-content="HTML5, Accessibility, Portfolio">
+content="Portfolio, HTML5, CSS3, Responsive Design">
 
 <meta name="author"
-content="Shyam">
+content="YOGITHA">
 
-<title>Accessible Portfolio</title>
+<title>
+Responsive Portfolio
+</title>
 
 <link rel="stylesheet"
 href="style.css">
@@ -26,9 +28,12 @@ href="style.css">
 
 <body>
 
-<a class="skip-link"
-href="#main-content">
+<a
+href="#main-content"
+class="skip-link">
+
 Skip to Content
+
 </a>
 
 <header role="banner">
@@ -36,15 +41,37 @@ Skip to Content
 <nav
 aria-label="Primary Navigation">
 
+<div class="logo">
+
+PORTFOLIO
+
+</div>
+
 <ul>
 
-<li><a href="#home">Home</a></li>
+<li>
+<a href="#home">
+Home
+</a>
+</li>
 
-<li><a href="#about">About</a></li>
+<li>
+<a href="#about">
+About
+</a>
+</li>
 
-<li><a href="#projects">Projects</a></li>
+<li>
+<a href="#projects">
+Projects
+</a>
+</li>
 
-<li><a href="#contact">Contact</a></li>
+<li>
+<a href="#contact">
+Contact
+</a>
+</li>
 
 </ul>
 
@@ -54,89 +81,162 @@ aria-label="Primary Navigation">
 
 <main id="main-content">
 
-<section id="home">
+<section
+id="home">
 
 <h1>
-My Portfolio
+
+Hello, I'm YOGITHA
+
 </h1>
 
 <p>
-Accessible Semantic HTML5 Website
+
+Web Development Student
+
 </p>
+
+<button>
+
+Explore
+
+</button>
 
 </section>
 
-<section id="about">
+<section
+id="about">
 
 <h2>
+
 About Me
+
 </h2>
 
 <p>
-Student interested in web development.
+
+Passionate about web development,
+responsive design,
+and accessibility.
+
 </p>
 
 </section>
 
-<section id="projects">
+<section
+id="projects">
 
 <h2>
+
 Projects
+
 </h2>
+
+<div class="project-container">
 
 <article>
 
 <h3>
+
 Portfolio Website
+
 </h3>
 
 <p>
-Built using semantic HTML5.
+
+Responsive semantic website.
+
 </p>
 
 </article>
 
+<article>
+
+<h3>
+
+UI Design
+
+</h3>
+
+<p>
+
+Modern responsive interfaces.
+
+</p>
+
+</article>
+
+<article>
+
+<h3>
+
+Accessibility Project
+
+</h3>
+
+<p>
+
+WCAG-compliant layouts.
+
+</p>
+
+</article>
+
+</div>
+
 </section>
 
-<section id="contact">
+<section
+id="contact">
 
 <h2>
+
 Contact
+
 </h2>
 
 <form
 aria-label="Contact Form">
 
 <label for="name">
+
 Name
+
 </label>
 
 <input
-id="name"
 type="text"
+id="name"
 required>
 
 <label for="email">
+
 Email
+
 </label>
 
 <input
-id="email"
 type="email"
+id="email"
 required>
 
 <label for="message">
+
 Message
+
 </label>
 
 <textarea
 id="message"
+rows="5"
 required>
+
 </textarea>
 
-<button type="submit">
+<button
+type="submit">
 
-Submit
+Send Message
 
 </button>
 
